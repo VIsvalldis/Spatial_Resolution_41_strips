@@ -1,0 +1,4 @@
+/home/vsevolod/GitHub/Spatial_Resolution_41/build/CMakeFiles/Spatial_Resolution.dir
+/home/vsevolod/GitHub/Spatial_Resolution_41/build/CMakeFiles/Simulation.dir
+/home/vsevolod/GitHub/Spatial_Resolution_41/build/CMakeFiles/edit_cache.dir
+/home/vsevolod/GitHub/Spatial_Resolution_41/build/CMakeFiles/rebuild_cache.dir
