@@ -11,10 +11,8 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 	
 	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
-	//G4double x0 = 0.025;		//Центр центрального (главного) стрипа 
-	G4double x0 = 0.025;
-	//G4double x0 = 0.075;		//Центр стрипа справа от главного
-	//G4double x0 = 0.175;		//R3 стрип
+	//G4double x0 = 0.0025;		//Центр центрального (главного) стрипа 
+	G4double x0 = 0.0025;
 	G4double y0 = 0.*m;
 	//G4double z0 = -0.0045*m;	//Фотоны спавнятся вдали от кристалла
 	G4double z0 = -0.0005*m;		//Фотоны спавнятся возле кристалла
@@ -25,7 +23,7 @@ void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 	
 	fParticleGun->SetParticlePosition(pos);			//передаем вектор направления
 	fParticleGun->SetParticleMomentumDirection(mom);	//передаем вектор импульса
-	fParticleGun->SetParticleMomentum(0.03*MeV);		//задаем модуль импульса
+	fParticleGun->SetParticleMomentum(0.01*MeV);		//задаем модуль импульса
 	fParticleGun->SetParticleDefinition(particle);		//передаем тип частицы
 	
 	fParticleGun->GeneratePrimaryVertex(anEvent);
