@@ -8,6 +8,14 @@
 #include "G4ParticleTable.hh"
 
 
+/////////////ADD/////////////////
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <random>
+//////////////////////////////
+
+
 class MyPrimaryGenerator : public G4VUserPrimaryGeneratorAction
 {
 public:

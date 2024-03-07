@@ -14,6 +14,13 @@
 
 int main(int argc, char** argv)
 {
+
+
+
+	//////////////////
+	std::remove("use_spec.txt"); // Удаляем файл
+	//////////////////
+	
 	G4RunManager *runManager = new G4RunManager();
 	
 	runManager->SetUserInitialization(new MyDetectorConstruction());
